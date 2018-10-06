@@ -1,0 +1,161 @@
+html{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity:0.9;
+  color: seashell;
+
+}
+
+header{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  background-color: black;
+}
+
+body{
+    margin:0;
+}
+
+.header-logo{
+  display: flex;
+
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.header-logo img{
+  width: auto;
+  height: 50px;
+}
+
+div{
+  display: block;
+}
+
+nav span{
+  display: inline-block;
+  padding-right: 10px;
+
+}
+
+header nav{
+  padding-right: 10px;
+}
+
+a{
+  color: seashell;
+}
+
+
+.main-image{
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width:1200px;
+}
+
+.main-image-text{
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+}
+
+h2, h4{
+  margin: 15px 0px;
+}
+
+.tea{
+  margin:auto;
+  margin-top: 75px;
+  width: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbnail{
+  width: 300px;
+  height: 200px;
+  margin: 15px 15px auto 15px;
+
+}
+
+.thumbnails h4{
+  margin-top: 10px;
+}
+
+.locations-image{
+  margin:auto;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width:1200px;
+}
+
+.locations-text{
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.blocks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+
+  justify-content: center;
+}
+
+.block{
+  display: inline-block;
+  background-color: black;
+  width: 300px;
+  margin: auto 20px auto 20px;
+  opacity: 1;
+}
+
+.block h3{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.block p{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-info{
+  display: flex
+  height:200px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+footer{
+  padding-left: 20px;
+  text-align: left;
+}
